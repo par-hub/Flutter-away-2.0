@@ -1,16 +1,28 @@
-# formula_app
+# Flutter Away 2.0 — Formula Reference App
 
-A new Flutter project.
+A Flutter/Dart educational app with a subject-oriented formula reference interface. The current project includes formula screens and visual assets for topics such as calculus, electronics, and mechanics, along with Mobilon branding.
 
-## Getting Started
+## Features and project areas
+- Home screen and subject cards for navigating the formula sections
+- Calculus and electronics formula screens
+- Shared subject-card UI and splash screen
+- Flutter assets for subject illustrations and Mobilon branding
 
-This project is a starting point for a Flutter application.
+The source includes a Mechanics file that is currently empty, so that section may need additional implementation.
 
-A few resources to get you started if this is your first Flutter project:
+## Run locally
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Install Flutter, then from the repository root run:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+~~~bash
+flutter pub get
+flutter run
+~~~
+
+## Tech stack
+Flutter · Dart · Material widgets
+
+## Development notes
+- Asset paths are declared in `pubspec.yaml`.
+- If you add images or subject sections, update the asset declarations and test on the target platforms.
+- The source is the authoritative view of current implementation; this README does not imply every subject section is complete.
